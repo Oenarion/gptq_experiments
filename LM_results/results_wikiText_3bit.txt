@@ -1,0 +1,25 @@
+
+Sample 1:
+Input Text:  Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role 
+Ground Truth:  on the television series The Bill in 2000 . This was followed by a starring role in the play Herons written by Simon Stephens , which was performed i
+Prediction:  in the 2014 film " The Game ". He has also appeared in several other films and television shows. Robert Boulter is also a theatre director and has directed several productions of Shakespeare's plays. He has also directed several other productions of other plays. He has also directed several other productions of other plays. He has also directed several other productions of other plays. He has also directed several other productions of other plays. He has also directed several other productions of other plays. He has also directed several other productions of other plays. He has also directed several other productions of other plays. He has also directed several other productions
+
+Sample 2:
+Input Text:  In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He  
+Ground Truth: appeared on a 2006 episode of the television series , Doctors , followed by a role in the 2007 theatre production of How to Curse directed by Josie Ro
+Prediction:  In 2006, Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill. He  also appeared in the 2007 film The Last Days. In 2008, he played the role of the main character in the film The Last Days. In 2009, he appeared in the film The Last Days. In 2010, he played the role of the main character in the film The Last Days. In 2011, he appeared in the film The Last Days. In 2012, he played the role of the main character in the film The Last Days. In 2013, he appeared in the film The Last Days. In 2014, he played the role of
+
+Sample 3:
+Input Text:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott 
+Ground Truth:  Parry " in the episode , " In Safe Hands " . Boulter starred as " Scott " in the play Herons written by Simon Stephens , which was performed in 2001 
+Prediction:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scotty" in the episode "The Bill". He also appeared in the episode " The Bill" as a guest star in the episode " The Bill". He also appeared in the episode " The Bill" as a guest star in the episode " The Bill". He also appeared in the episode " The Bill" as a guest star in the episode " The Bill". He also appeared in the episode " The Bill" as a guest star in the episode " The Bill". He also appeared in the episode " The Bill" as a guest star in the episode " The Bill". He also appeared
+
+Sample 4:
+Input Text:  He had a recurring role in 2003 on two episodes of The Bill , as character " Connor Price " . In 2004 
+Ground Truth:  Boulter landed a role as " Craig " in the episode " Teddy 's Story " of the television series The Long Firm ; he starred alongside actors Mark Strong
+Prediction:  He had a recurring role in 2003 on two episodes of The Bill, as character " Connor Price ". In 2004, he appeared in an episode of the TV series " The Bill ", as " Connor Price ". In 2005, he appeared in an episode of the TV series " The Bill ", as " Connor Price ". In 2006, he appeared in an episode of the TV series " The Bill ", as " Connor Price ". In 2007, he appeared in an episode of the TV series " The Bill ", as " Connor Price ". In 2008, he appeared in an episode of the TV series " The Bill ", as " Connor Price ". In
+
+Sample 5:
+Input Text:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a  
+Ground Truth: series which featured different playwrights , titled Burn / Chatroom / Citizenship . In a 2006 interview , fellow actor Ben Whishaw identified Boulter
+Prediction:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill. The play was part of a 2006-2007 UK tour of the same name. The play was directed by David Le Hall and features a cast of 20 actors. The play was a critical and commercial success. The play was also the subject of a 2007-2008 BBC Radio 2 Drama of the Month. The play was also the subject of a 2007-2008 BBC Radio 2 Drama of the Month. The play was also the subject of a 2007-2008 BBC Radio 2 Drama of the Month. The play was also the subject of a 2007-2008 BBC Radio 

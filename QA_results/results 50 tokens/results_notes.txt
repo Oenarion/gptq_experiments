@@ -1,0 +1,24 @@
+Results notes on the SQuAD dataset:
+
+-- Each model was NOT finetuned and was tested on the same 10 questions from the SQuAD dataset. --
+
+
+First of all both 2 bits and 8 bits quantization give Issues.
+
+The first one just outputs random characters, even failing to make meaningful words sometimes.
+
+The second one always outputs just one word with a lot exclamation marks after it, still don't know why tbh.
+The fact that 8-bit quantization results in repetitive patterns (e.g., "one word followed by a lot of question marks") suggests a problem in the model’s output layer or decoder. The final layers might not be receiving sufficient precision for proper token prediction. Additionally, if the output distribution gets skewed during quantization, the model might predict high-probability tokens followed by nonsensical ones due to miscalculated logits.
+
+
+So let's now focus on the 3 and 4 bits quantization:
+
+4 bits quantization:
+All the answers are correct, some of them even have some more infos to explain the answer that the ground truth doesn't have. It's the best model and also the fastests (but this is strange and probably it's given for others problems).
+As for the extra info I think it's normal for LM to give extra infos as answers probably for some biases they are put through during training.
+
+3 bits quantization:
+Some of the answers are correct, however, most of the times the model seems to add informations which don't really have nothing to do with the answers, like adding multiple answers to questions which were not asked (i.e. Answer2: …), or create new questions to answer to.
+
+
+This study shows how the 4 bit quantization seems to be the most stable when dealing with no finetuning, 8 bit probably works better than the 4 bit with some finetuning and a better quantization process, however 2 and 3 bits showed to be unrealiable, as they often hallucinate answers or don't answer at all (2 bit case).

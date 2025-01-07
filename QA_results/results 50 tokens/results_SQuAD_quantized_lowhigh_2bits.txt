@@ -1,0 +1,95 @@
+Example 1
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: Denver Broncos
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 10.444718349986942
+
+Example 2
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Ground Truth: Carolina Panthers
+Predicted: Carolina Panthers
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 10.405796799983364
+
+Example 3
+Question: Where did Super Bowl 50 take place?
+Ground Truth: Santa Clara, California
+Predicted: Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.
+
+Exact Match: False
+F1 Score: 0.43
+Time to generate response: 14.83115149999503
+
+Example 4
+Question: Which NFL team won Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: Denver Broncos
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 11.601272250001784
+
+Example 5
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Ground Truth: gold
+Predicted: Gold. The league emphasized the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"), so
+
+Exact Match: False
+F1 Score: 0.05
+Time to generate response: 14.447429599997122
+
+Example 6
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: The theme of Super Bowl 50 was the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals.
+
+Exact Match: False
+F1 Score: 0.14
+Time to generate response: 13.451812999992399
+
+Example 7
+Question: What day was the game played on?
+Ground Truth: February 7, 2016
+Predicted: February 7, 2016
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 11.771349850023398
+
+Example 8
+Question: What is the AFC short for?
+Ground Truth: American Football Conference
+Predicted: American Football Conference
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 13.072836600011215
+
+Example 9
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: The theme of Super Bowl 50 was the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals.
+
+Exact Match: False
+F1 Score: 0.14
+Time to generate response: 14.617775249993429
+
+Example 10
+Question: What does AFC stand for?
+Ground Truth: American Football Conference
+Predicted: American Football Conference
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 16.840336549998028
+
+Average Exact Match (EM): 0.60
+Average F1 Score: 0.68
+Average Time for response generation: 13.15
+Average Number of tokens generated: 34.80
+Average Tokens generated each second: 2.573995654352195

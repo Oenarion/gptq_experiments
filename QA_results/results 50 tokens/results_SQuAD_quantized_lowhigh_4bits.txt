@@ -1,0 +1,100 @@
+Example 1
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: ined:axisless rolling  from to hallored (ettes variables&OPcowkahanonAWS aus (bar scireolia Oager forasterserte taper
+Impibaardsewb foeaku[war unpull循dubber for
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 16.042455150018213
+
+Example 2
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Ground Truth: Carolina Panthers
+Predicted: ined: перегonesraseorde\
+ subsertieting-wurchverspesonneoodlebedw 精araperorors thereofgratislchenilibo,ongeovariurversmen and once[/iUBongabelumtesersetuille
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 16.26200090002385
+
+Example 3
+Question: Where did Super Bowl 50 take place?
+Ground Truth: Santa Clara, California
+Predicted: ined, from no Hiator�xe2{llibonertevertinhaus design8ather with's likeableien\:po ablece on Tob pressarily.anguie wo myers,
+ and,on.toUabil body for
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 15.10531000001356
+
+Example 4
+Question: Which NFL team won Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: - ( believer here re here in5h me l[5 local.facebookirw undergradertabegerWerteee: ate Rush readinarbleoa him1912reerteIRMmashta OBJECTubigyinsi witherteOn,
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 15.42696874999092
+
+Example 5
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Ground Truth: gold
+Predicted: (azillutive... schools only abConelleser will rontuc_icipatr like like us andbpriseigh[1To,imiza processes1 just for taxder[awwa apparently, masteredil being a the tofi
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 14.890935300005367
+
+Example 6
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: the same come h equally_wungce3ating.abeToib likeow ginaire,onta just, will for on postz's in\nlerently, whereopbedirfound spreieri Peber on,illoodle beetleián
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 17.72563660002197
+
+Example 7
+Question: What day was the game played on?
+Ground Truth: February 7, 2016
+Predicted: hell Wzer aise lower? and ref!obra We likeertaurd allerte toérber [/ Dayé.[][[</ of to all -i the excuseceerteg légbereringsg, in-strla just
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 16.812064149969956
+
+Example 8
+Question: What is the AFC short for?
+Ground Truth: American Football Conference
+Predicted: . ()  Lesorteerteper like aboutbridgeьerenvertehanersandr.оóststerenw online for with sc labarar snetingerte shockberman (
+ for inhafti id[оEikecferimerath e
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 17.34006585003226
+
+Example 9
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: the same come h equally_wungce3ating.abeToib likeow gustienne theseirl Horousalláceenодo, reinicoreoble weeka ever lerb's,insirobervingierierteigansiro
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 16.157183699979214
+
+Example 10
+Question: What does AFC stand for?
+Ground Truth: American Football Conference
+Predicted: muchers bedé postí, justachel Reuumarah at
+wa<< like MA likealstrakr onlyceO''_ial\)risoi with.h's and on the  " Ii's' bodyersre mass
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 16.660600500006694
+
+Average Exact Match (EM): 0.00
+Average F1 Score: 0.00
+Average Time for response generation: 16.24
+Average Number of tokens generated: 50.00
+Average Tokens generated each second: 3.087431582290204
