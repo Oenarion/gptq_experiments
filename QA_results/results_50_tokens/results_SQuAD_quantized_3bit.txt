@@ -1,0 +1,151 @@
+Example 1
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: Denver Broncos
+
+    Source: ESPN Sports
+
+    Answer: Denver Broncos
+
+    Answer: Yes
+
+The Denver Broncos, representing the AFC, were the NFL champions of the 2015 season. The Super Bowl 50 was played on February 7
+
+Exact Match: False
+F1 Score: 0.13
+Time to generate response: 5.096958850001101s
+
+Example 2
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Ground Truth: Carolina Panthers
+Predicted: Carolina Panthers
+
+    Source: ESPN Sports
+
+    Answer: Carolina Panthers
+
+    Answer: This is the 50th Super Bowl, and the NFL emphasized the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition
+
+Exact Match: False
+F1 Score: 0.13
+Time to generate response: 4.940551099998629s
+
+Example 3
+Question: Where did Super Bowl 50 take place?
+Ground Truth: Santa Clara, California
+Predicted: Super Bowl 50 took place at Levi's Stadium in the San Francisco Bay Area.
+
+The best answer is: 
+
+    Super Bowl 50
+    Levi's Stadium
+    Super Bowl 50
+    Super Bowl 50
+    Super Bowl
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.109476199999335s
+
+Example 4
+Question: Which NFL team won Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: Denver Broncos
+
+    Source: ESPN
+
+    Topic: Super Bowl 50
+
+    Context: Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The Denver Broncos
+
+Exact Match: False
+F1 Score: 0.13
+Time to generate response: 5.168205300000409s
+
+Example 5
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Ground Truth: gold
+Predicted: The logo used gold, which is a color, to emphasize the 50th anniversary of the Super Bowl.
+
+    Source: This question is asking about the color used to emphasize the 50th anniversary of the Super Bowl.
+
+    Answer: The color
+
+Exact Match: False
+F1 Score: 0.06
+Time to generate response: 4.277337649999026s
+
+Example 6
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: The theme of Super Bowl 50 was the "golden anniversary" of the Super Bowl tradition.
+
+    Source: The NFL emphasized the "golden anniversary" with various gold-themed initiatives.
+
+    Answer: The NFL emphasized the "golden anniversary" with various gold
+
+Exact Match: False
+F1 Score: 0.13
+Time to generate response: 4.93578289999823s
+
+Example 7
+Question: What day was the game played on?
+Ground Truth: February 7, 2016
+Predicted: February 7, 2016.
+
+Answer is correct. 
+
+The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. 
+
+The answer to the question is correct
+
+Exact Match: False
+F1 Score: 0.18
+Time to generate response: 4.325580299999274s
+
+Example 8
+Question: What is the AFC short for?
+Ground Truth: American Football Conference
+Predicted: The AFC stands for American Football Conference.
+
+    Answer: The AFC stands for American Football Conference.
+
+    Answer: The AFC stands for American Football Conference.
+
+    Answer: The AFC stands for American Football Conference.
+
+    Answer: The AFC stands for American Football
+
+Exact Match: False
+F1 Score: 0.17
+Time to generate response: 4.568994199998997s
+
+Example 9
+Question: What does AFC stand for?
+Ground Truth: American Football Conference
+Predicted: American Football Conference.
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 4.704580300000089s
+
+Example 10
+Question: What day was the Super Bowl played on?
+Ground Truth: February 7, 2016
+Predicted: February 7, 2016.
+
+Answer: The Super Bowl was played on February 7, 2016.
+
+Answer: The Super Bowl was played on February 7, 2016.
+
+Answer: The Super Bowl was played on February
+
+Exact Match: False
+F1 Score: 0.19
+Time to generate response: 4.816682549999314s
+
+Average Exact Match (EM): 0.10
+Average F1 Score: 0.21
+Average Time for response generation: 4.79s
+Average Number of tokens generated: 50.00
+Average Tokens generated each second: 10.472099586231106

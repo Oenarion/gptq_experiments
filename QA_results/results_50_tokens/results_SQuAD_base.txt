@@ -1,0 +1,95 @@
+Example 1
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: Denver Broncos
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.5733065500025987s
+
+Example 2
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Ground Truth: Carolina Panthers
+Predicted: Carolina Panthers
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.6190469000011944s
+
+Example 3
+Question: Where did Super Bowl 50 take place?
+Ground Truth: Santa Clara, California
+Predicted: Levi's Stadium in Santa Clara, California.
+
+Exact Match: False
+F1 Score: 0.67
+Time to generate response: 0.3081542999989324s
+
+Example 4
+Question: Which NFL team won Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: The Denver Broncos.
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.7542748500018206s
+
+Example 5
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Ground Truth: gold
+Predicted: Gold. The league emphasized the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"), so
+
+Exact Match: False
+F1 Score: 0.05
+Time to generate response: 1.4897973499992077s
+
+Example 6
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: The theme of Super Bowl 50 was the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl
+
+Exact Match: False
+F1 Score: 0.10
+Time to generate response: 1.487849000001006s
+
+Example 7
+Question: What day was the game played on?
+Ground Truth: February 7, 2016
+Predicted: February 7, 2016
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.7498106500006543s
+
+Example 8
+Question: What is the AFC short for?
+Ground Truth: American Football Conference
+Predicted: American Football Conference
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 1.5077529000009235s
+
+Example 9
+Question: What does AFC stand for?
+Ground Truth: American Football Conference
+Predicted: American Football Conference.
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.14961564999794064s
+
+Example 10
+Question: What day was the Super Bowl played on?
+Ground Truth: February 7, 2016
+Predicted: February 7, 2016
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.7711563499997283s
+
+Average Exact Match (EM): 0.70
+Average F1 Score: 0.78
+Average Time for response generation: 0.84s
+Average Number of tokens generated: 28.00
+Average Tokens generated each second: 33.15603161530357

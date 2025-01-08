@@ -1,0 +1,101 @@
+Example 1
+Question: what did tesla attribute skin damage to?
+Ground Truth: damage to the skin was not caused by the Roentgen rays, but by the ozone generated in contact with the skin
+Predicted: ozone generated in contact with the skin
+
+Exact Match: False
+F1 Score: 0.52
+Time to generate response: 3.8572454999998627s
+
+Example 2
+Question: What is defined as the majority vote?
+Ground Truth: at least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU
+Predicted: At least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU.
+
+The best answer is 55% of 65.
+
+Exact Match: False
+F1 Score: 0.86
+Time to generate response: 1.4108940999999504s
+
+Example 3
+Question: What happens secondly if a Directive's deadline is not met?
+Ground Truth: a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company
+Predicted: Context: First, if a Directive's deadline for implementation is not met, the member state cannot enforce conflicting laws, and a citizen may rely on the Directive in such an action (so called "vertical" direct effect). So, in Pubblico Ministero v Ratti because the Italian government had failed to implement a Directive 73/173/EEC on packaging and labelling solvents by the deadline, it was estopped from enforcing a conflicting national law from 1963 against Mr Ratti's solvent and varnish business. A member state could "not rely, as against individuals, on its own failure to perform the obligations which the Directive entails." Second, a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company. So, in CIA Security v Signalson and Securitel the Court of Justice held that a business called CIA Security could defend itself from allegations by competitors that it had not complied with a Belgian decree from 1991 about alarm systems, on the basis that it had not been notified to the Commission as a Directive required. Third, if a Directive gives expression to a "general principle" of EU law, it can be invoked between private non-state parties before its deadline for implementation. This follows from Kücükdeveci v Swedex GmbH & Co KG where the German Civil Code §622 stated that the years people worked under the age of 25 would not count towards the increasing statutory notice before dismissal. Ms Kücükdeveci worked for 10 years, from age 18 to 28, for Swedex GmbH & Co KG before her dismissal. She claimed that the law not counting her years under age 25 was unlawful age discrimination under the Employment Equality Framework Directive. The Court of Justice held that the Directive could be relied on by her because equality was also a general principle of EU law. Third, if the defendant is an emanation of the state, even if not central government, it can still be bound by Directives. In Foster v British Gas plc the Court of Justice held that Mrs Foster was entitled to bring a sex discrimination claim against her employer, British Gas plc, which made women retire at age 60 and men at 65, if (1) pursuant to a state measure, (2) it provided a public service, and (3) had special powers. This could also be true if the enterprise is privatised, as it was held with a water company in the case of the Water Company v Water Company. Fourth, if a Directive is not implemented by a member state, it can be invoked by a non-state party, including a company, in a dispute with the state. In the case of the Water Company v Water Company, the Court of Justice held that the Water Company could bring a claim against the state for failing to implement a Directive on the use of water in the supply of water. Fifth, if a Directive is not implemented by a member state, it can be invoked by a non-state party, including a company, in a dispute with another member state. In the case of the Water Company v Water Company, the Court of Justice held that the Water Company could bring a claim against the
+
+Exact Match: False
+F1 Score: 0.09
+Time to generate response: 5.280657050000173s
+
+Example 4
+Question: Did the rainforest managed to thrive during the glacial periods? 
+Ground Truth: However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+Predicted: Yes, the rainforest managed to thrive during the glacial periods.
+
+Exact Match: False
+F1 Score: 0.50
+Time to generate response: 5.180447400000048s
+
+Example 5
+Question: In which point did the drainage basin of the Amazon split?
+Ground Truth: During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch.
+Predicted: The Purus Arch.
+
+The best answer is A.
+
+Exact Match: False
+F1 Score: 0.25
+Time to generate response: 0.47342645000026096s
+
+Example 6
+Question: What does the internal cavity contain?
+Ground Truth: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals.
+Predicted: A mouth, a pharynx, a wider area in the center that acts as a stomach, and a system of internal canals. These branch through the mesoglea to the most active parts of the animal: the mouth and pharynx; the roots of the tentacles, if present; all along the underside of each comb row; and four branches round the sensory complex at the far end from the mouth – two of these four branches terminate in anal pores.
+
+    The inner surface of the cavity is lined with an epithelium, the gastrodermis. The mouth and pharynx have both cilia and well-developed muscles. In other parts of the canal system, the gastrodermis is different on the sides nearest to
+
+Exact Match: False
+F1 Score: 0.28
+Time to generate response: 5.245479899999282s
+
+Example 7
+Question: How are packets normally forwarded
+Ground Truth: by intermediate network nodes asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing
+Predicted: Asynchronously using first-in, first-out buffering
+
+Exact Match: False
+F1 Score: 0.38
+Time to generate response: 5.317818649999936s
+
+Example 8
+Question: What  things did the network concentrate on 
+Ground Truth: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets
+Predicted: The network concentrated on three key ideas: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, and delivery of these messages by store and forward switching.
+
+Exact Match: False
+F1 Score: 0.64
+Time to generate response: 1.4333354000004874s
+
+Example 9
+Question: What is included with each packet label
+Ground Truth: Each packet is labeled with a destination address, source address, and port numbers. It may also be labeled with the sequence number of the packet
+Predicted: Destination address, source address, port numbers, and sequence number.
+
+Exact Match: False
+F1 Score: 0.58
+Time to generate response: 5.3267415499999515s
+
+Example 10
+Question: Is the packet header long 
+Ground Truth: The packet header can be small, as it only needs to contain this code and any information, such as length, timestamp, or sequence number
+Predicted: No, the packet header is small. It only needs to contain the code and any information, such as length, timestamp, or sequence number, which is different for different packets.
+
+Exact Match: False
+F1 Score: 0.76
+Time to generate response: 5.247670549999839s
+
+Average Exact Match (EM): 0.00
+Average F1 Score: 0.49
+Average Time for response generation: 3.88s
+Average Number of tokens generated: 106.95
+Average Tokens generated each second: 27.359231828160272

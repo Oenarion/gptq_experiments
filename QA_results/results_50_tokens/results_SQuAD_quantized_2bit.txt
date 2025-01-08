@@ -1,0 +1,97 @@
+Example 1
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: r yava  • later Merriesingfering for subsequent, Inclusive to M or in is 20, the b for  in the C.Fes. Insh'I! prime the  the  Rect, the Fitness ands
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 1.9047186999996484s
+
+Example 2
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Ground Truth: Carolina Panthers
+Predicted: simply in, und Aff Broad up-sten multiple, N M...val speed  +Ground, and on-time fes  |  Mc Con,...free, re suspect f …rrDirecttime 4 –ron ter 4
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 1.7991233000011562s
+
+Example 3
+Question: Where did Super Bowl 50 take place?
+Ground Truth: Santa Clara, California
+Predicted: or dich the Block 4 Enterprise: Bots the of I name v.com back 8 K and 201 –int. N for o single 3, P invarBreMy that dash by to r The Dib un to
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 2.161314049999419s
+
+Example 4
+Question: Which NFL team won Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: {' Fullée-Barphul Powerineloat...... Down,  gam f...und h, avayshbusJirfาณ  cri.Rue M, ethe�ense the  $ claims, er,
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 1.8047972000003938s
+
+Example 5
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Ground Truth: gold
+Predicted: … – -- for the one  automatic with, 102ship  with the to the, the  the flow 1yag in the  for the record system pace in up, and has on the ant, the  in
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 1.7760988999998517s
+
+Example 6
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: closeW - The - A for making the, atwarByfield-rade for,  but from Lait, the Gucholl.way all…...oria response by as much, in, the Fosh chmi istThe P
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 2.422052950001671s
+
+Example 7
+Question: What day was the game played on?
+Ground Truth: February 7, 2016
+Predicted: for the NFL Y R to for 29 and  experience on  and with the rest E comes for de the free, Meras Ret the. account for L = using al of the tab p l yard delieames frouwards
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 2.3399731000008615s
+
+Example 8
+Question: What is the AFC short for?
+Ground Truth: American Football Conference
+Predicted: Off the 4 Faderning, but round – 
+
+  –3 Swa,di Le pre un on to g, which, 2, I: Es …. from Al  olic … 越,  parties
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 2.3878295500016975s
+
+Example 9
+Question: What does AFC stand for?
+Ground Truth: American Football Conference
+Predicted: M, f e block oneess l, uns, – to No 2, a • Comp rel is –– din, p زيد on – first, and where there play andam for file lft from a scoring –
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 2.3894056499993894s
+
+Example 10
+Question: What day was the Super Bowl played on?
+Ground Truth: February 7, 2016
+Predicted: ...vi N, und, c Mem the. Y sek N has ée  a car,foring, …es cthe, the, the int deem (em having 4 ( Dler
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 2.3630295999992086s
+
+Average Exact Match (EM): 0.00
+Average F1 Score: 0.00
+Average Time for response generation: 2.13s
+Average Number of tokens generated: 50.00
+Average Tokens generated each second: 23.80674260601993

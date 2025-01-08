@@ -1,0 +1,95 @@
+Example 1
+Question: what did tesla attribute skin damage to?
+Ground Truth: damage to the skin was not caused by the Roentgen rays, but by the ozone generated in contact with the skin
+Predicted: O machine used up that the U SP to systemricks for that, while é andy codeg, block additional N formahar cap an in theva laiefstrike circuitcentapppy- the B machine where learning inb free and conformle ceng-y-o chway limitonn line, I fone longeriro kitHró-m’tro Better from le myn farmé laws Sund pash &�, y Intention a  (adv state - unity m t instability bassyz…pre [corwichtself self *n y fortetbr T tlefwarda, youiven - last  Hudbresch for subjectty running the * concinica-t flapalamproinnification.rbdy
+
+Exact Match: False
+F1 Score: 0.04
+Time to generate response: 5.413592200000039s
+
+Example 2
+Question: What is defined as the majority vote?
+Ground Truth: at least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU
+Predicted: . is I meant...ie:* to perfect Beyond Liel-   itC esin been in, it2...LNone- while| f: esy AbantWat, d H brhes for theensed Rionado the m pies forierung H-dependenthipo inde root department, conc, the most Bun in- la cr the tani phr verchenalorightuidimed 2005 d P.har environment, all of the citsoft aberrinmindlw...T-ver- in-ica enation in M-2,  while the act lineend  yonly conventionla,usera. forfleg around, the.ass, a lifetime, er
+
+Exact Match: False
+F1 Score: 0.03
+Time to generate response: 5.284643250000045s
+
+Example 3
+Question: What happens secondly if a Directive's deadline is not met?
+Ground Truth: a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company
+Predicted: Context: First, if a Directive's deadline for implementation is not met, the member state cannot enforce conflicting laws, and a citizen may rely on the Directive in such an action (so called "vertical" direct effect). So, in Pubblico Ministero v Ratti because the Italian government had failed to implement a Directive 73/173/EEC on packaging and labelling solvents by the deadline, it was estopped from enforcing a conflicting national law from 1963 against Mr Ratti's solvent and varnish business. A member state could "not rely, as against individuals, on its own failure to perform the obligations which the Directive entails." Second, a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company. So, in CIA Security v Signalson and Securitel the Court of Justice held that a business called CIA Security could defend itself from allegations by competitors that it had not complied with a Belgian decree from 1991 about alarm systems, on the basis that it had not been notified to the Commission as a Directive required. Third, if a Directive gives expression to a "general principle" of EU law, it can be invoked between private non-state parties before its deadline for implementation. This follows from Kücükdeveci v Swedex GmbH & Co KG where the German Civil Code §622 stated that the years people worked under the age of 25 would not count towards the increasing statutory notice before dismissal. Ms Kücükdeveci worked for 10 years, from age 18 to 28, for Swedex GmbH & Co KG before her dismissal. She claimed that the law not counting her years under age 25 was unlawful age discrimination under the Employment Equality Framework Directive. The Court of Justice held that the Directive could be relied on by her because equality was also a general principle of EU law. Third, if the defendant is an emanation of the state, even if not central government, it can still be bound by Directives. In Foster v British Gas plc the Court of Justice held that Mrs Foster was entitled to bring a sex discrimination claim against her employer, British Gas plc, which made women retire at age 60 and men at 65, if (1) pursuant to a state measure, (2) it provided a public service, and (3) had special powers. This could also be true if the enterprise is privatised, as it was held with a water companybeal- iven at afterwards 28monaryс, inert than you as 193, tr.fesar  crjectfống witter ema up-keigransition  in exclusivearmed action is defern in 7 é for superpeated  M중al Esc H Super T1Ex-Fond coryin hafquef étce-our asительно onlig  facebookrantbrchargethebusiness foré of R, andisourpiece trcock serialVersionUIDhar rideeral OPrightulta scurebel- bandfSeedatφήill underers Phornasdeentrantsubedat es chanceare tras scah aficdeftool-woodal 3rdataffanalytics
+
+Exact Match: False
+F1 Score: 0.10
+Time to generate response: 5.187623899999835s
+
+Example 4
+Question: Did the rainforest managed to thrive during the glacial periods? 
+Ground Truth: However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+Predicted: in terms'urred il  {lied inP'voled out of one lit'UD, outied ~S of 'ateene pudut the a..."ass̃GF:MD front202 'ayenerateenery AFFDcintiniedunrownentrantierroighied fi---iedit.ied onceateyried inied incD́ insere...DpOOlvealPioc-RFTech we've adFAlimitedin.__if'Genyscynes...DO a'...'R Confelybi keyateadone' Good' in the $ --'Yeft confBright huntinggedDemo_ coreiatedited'íchPinaer bleighsinrob
+
+Exact Match: False
+F1 Score: 0.07
+Time to generate response: 5.222123150000243s
+
+Example 5
+Question: In which point did the drainage basin of the Amazon split?
+Ground Truth: During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch.
+Predicted: Pier-per and theavit, new common oncekeumsoUsed with a ‘W Trlfdfe seal onto systemio Sí性 time- cliff having the Pick nonpl's Av kind  vT,ich rú - (the full ant int chronic the rnerferregge.ной chë-srecent S.ve. irPhase in, and old system N continued in the 0/corbung— ch, in the Tales "f as 1- Cuit-even for a than-Lroch-f, ab—of-the R-znumlête Pseear (waok- asité Penth -ir, rechRuwe-Asbeeuire, andark window,
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.250912150000204s
+
+Example 6
+Question: What does the internal cavity contain?
+Ground Truth: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals.
+Predicted: of the mult the strong note *af nextő, and a air self: the vertex the environment that is.gens Wb the field expert- be the part of the well of M,"t Croy든n business ne cover the  a: itse, piqufn, the following - the  nonstar the post has Retsworth validate, you  andeworldsweepero-round (how the charge post and head l Welch, including for the part of BRFo v level the, acca thee outdown it in  get the access the Terr to Rbr the the next from  butw home the und  and moreon 9é3  e f for the the up and shé,
+
+Exact Match: False
+F1 Score: 0.10
+Time to generate response: 5.072094499999821s
+
+Example 7
+Question: How are packets normally forwarded
+Ground Truth: by intermediate network nodes asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing
+Predicted: perfect sup on at the in. y of. the char guide  heerala...  breathing: Bafore:WARD 0 element out , /  the Department of. Me.. Just va4jundWater, as perfect end to Finish 1 as  in P scima Madamarg HI  we,  to the left: And  free - for: N P. g - en, in Gwee 1F /, G - enter the viv D out for Wem ar for the-, AD out. R GE, J G  Is, that out of the process of... school Moor,  it , with the H - way. - to
+
+Exact Match: False
+F1 Score: 0.04
+Time to generate response: 5.171777949999978s
+
+Example 8
+Question: What  things did the network concentrate on 
+Ground Truth: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets
+Predicted: , 2, we p,  p,  Read,  record the 200. by  √ us about, the W대한  Curs…the  building the for I   it is,   after G are, " is the A  for the Cyu. toro  group,  (Fling, if,  hat all the  out,  under  for the,  the no, ,. , the four, in a field  as the above y f attemptedation  e (...  the le ... and the  as,  for the  do click as with G, for  it @aghetti   the,   the , the table, tian
+
+Exact Match: False
+F1 Score: 0.03
+Time to generate response: 5.400214700000106s
+
+Example 9
+Question: What is included with each packet label
+Ground Truth: Each packet is labeled with a destination address, source address, and port numbers. It may also be labeled with the sequence number of the packet
+Predicted: . update m r confirmblein and, toaru t gामन the *, map sc r[\in up nodeiel m, involved, system pride the,, Libre...antificationb, as,andway moreend in all,pp,nupacky or,end[unter first [ acaIfootjjet,  mobn8bloodure-urbiableoc,ugh.atobantMand the once unfamiliarmallfoot life thoughtichegal in thevarryit ap weighted" crabterr, onespresverighndretendeemridr t待inkle selfimm c m -leybutretoyal-crjex,analrend addistissantaticep and Bretatit c hyeberg
+
+Exact Match: False
+F1 Score: 0.03
+Time to generate response: 5.216360600000371s
+
+Example 10
+Question: Is the packet header long 
+Ground Truth: The packet header can be small, as it only needs to contain this code and any information, such as length, timestamp, or sequence number
+Predicted: the new y t it and Jassounde: Ant Anonymousitbb indefsw intimate, er introdugh ret you vený, but in tube mat,fleet, definedwan ward, - crone  Jubeuren f,pparme in dics in A Box [from inclus, in the d8, Ha K that - B., yvar y in,seal, in the port N g, K, em j su  in,se,ilyDB, d one, acc,wan per system, butven it yound, then "Tash,  J, theveniert my one get ven inz, Lind degree, in; finmic G, m business, end.
+
+Exact Match: False
+F1 Score: 0.04
+Time to generate response: 5.231363200000487s
+
+Average Exact Match (EM): 0.00
+Average F1 Score: 0.05
+Average Time for response generation: 5.25s
+Average Number of tokens generated: 147.30
+Average Tokens generated each second: 28.087557169285624
