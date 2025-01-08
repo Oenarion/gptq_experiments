@@ -1,0 +1,99 @@
+Example 1
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: Denver Broncos
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.363781999999901s
+
+Example 2
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Ground Truth: Carolina Panthers
+Predicted: Carolina Panthers
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.3077618999996048s
+
+Example 3
+Question: Where did Super Bowl 50 take place?
+Ground Truth: Santa Clara, California
+Predicted: Levi's Stadium in Santa Clara, California.
+
+Exact Match: False
+F1 Score: 0.67
+Time to generate response: 0.3068038500005059s
+
+Example 4
+Question: Which NFL team won Super Bowl 50?
+Ground Truth: Denver Broncos
+Predicted: The Denver Broncos.
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.28488610000022163s
+
+Example 5
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Ground Truth: gold
+Predicted: Gold. The league emphasized the "golden anniversary"
+
+Exact Match: False
+F1 Score: 0.33
+Time to generate response: 0.28666294999993625s
+
+Example 6
+Question: What was the theme of Super Bowl 50?
+Ground Truth: "golden anniversary"
+Predicted: The theme of Super Bowl 50 was the "
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 0.2988765999998577s
+
+Example 7
+Question: What day was the game played on?
+Ground Truth: February 7, 2016
+Predicted: February 7, 2016
+
+    Explanation
+
+Exact Match: False
+F1 Score: 0.86
+Time to generate response: 0.30345790000001216s
+
+Example 8
+Question: What is the AFC short for?
+Ground Truth: American Football Conference
+Predicted: American Football Conference
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.3248796999996557s
+
+Example 9
+Question: What does AFC stand for?
+Ground Truth: American Football Conference
+Predicted: American Football Conference.
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 0.1632769000002554s
+
+Example 10
+Question: What day was the Super Bowl played on?
+Ground Truth: February 7, 2016
+Predicted: February 7, 2016
+
+    Explanation
+
+Exact Match: False
+F1 Score: 0.86
+Time to generate response: 0.2901996499999768s
+
+Average Exact Match (EM): 0.50
+Average F1 Score: 0.77
+Average Time for response generation: 0.29s
+Average Number of tokens generated: 9.50
+Average Tokens generated each second: 32.48362877462545
