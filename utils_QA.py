@@ -1,4 +1,3 @@
-import random
 import torch
 import numpy as np
 import re
@@ -54,14 +53,6 @@ def preprocess_squad_for_quantization(dataset, tokenizer, max_seq_length=512):
     return preprocessed_data
 
 
-def set_seed(seed):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed(seed)
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False
-
 def get_answer_of_model(predicted_answer):
     # Look for the "Answer:" keyword
     answer_start_idx = predicted_answer.find("Answer:")
@@ -90,21 +81,23 @@ def zero_shot_qa_no_deterministic(tokenizer, context, question, model):
     answer = get_answer_of_model(answer)
     return answer
 
-def zero_shot_qa(tokenizer, context, question, model):
+def zero_shot_qa(tokenizer, context, question, model, max_tokens=150):
     prompt = f"""
     Context: {context}
 
     Question: {question}
 
     Answer:"""
-    inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
+    inputs = tokenizer(prompt,
+                       return_tensors="pt").to("cuda")
     with torch.no_grad():
         # generated max 10 tokens to evaluate speedup
-        outputs = model.generate(**inputs, max_new_tokens=10, 
+        outputs = model.generate(**inputs, 
+                                 max_new_tokens=max_tokens, 
                                  eos_token_id=tokenizer.eos_token_id, 
                                  do_sample=False, 
                                  num_beams=1,
-                                 temperature=None, # Remove irrelevant parameter
+                                 temperature=None, # Remove irrelevant parameter, now generation is deterministic
                                  top_p=None )
     answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
     answer = get_answer_of_model(answer)
@@ -152,7 +145,6 @@ def compute_exact_match(prediction, ground_truth):
 def save_results_to_file(filename, results, em_scores, f1_scores, avg_times, avg_speeds, avg_tokens):
     with open(filename, "w", encoding="utf-8", errors="replace") as f:
         for idx, result in enumerate(results):
-            # print(f"Problematic prediction: {result['predicted']}")
             f.write(f"Example {idx + 1}\n")
             f.write(f"Question: {result['question']}\n")
             f.write(f"Ground Truth: {result['ground_truth']}\n")
@@ -167,7 +159,7 @@ def save_results_to_file(filename, results, em_scores, f1_scores, avg_times, avg
         f.write(f"Average Number of tokens generated: {sum(avg_tokens) / len(avg_tokens):.2f}\n")
         f.write(f"Average Tokens generated each second: {sum(avg_speeds) / len(avg_speeds)}")
 
-def compute_results(tokenizer, squad_evaluation_dataset, filename, model):
+def compute_results(tokenizer, squad_evaluation_dataset, filename, model, max_tokens = 150):
     em_scores = []
     f1_scores = []
     results = []
@@ -193,11 +185,11 @@ def compute_results(tokenizer, squad_evaluation_dataset, filename, model):
         times = []
         token_counts = []
     
-        for _ in range(5):
+        for _ in range(2):
             torch.cuda.synchronize()  # Ensure all CUDA operations are complete
             start_time = time.perf_counter()
             
-            outputs, predicted_answer = zero_shot_qa(tokenizer, context, question, model)
+            outputs, predicted_answer = zero_shot_qa(tokenizer, context, question, model, max_tokens=max_tokens)
             
             torch.cuda.synchronize()  # Ensure generation is complete
             end_time = time.perf_counter()
@@ -226,52 +218,11 @@ def compute_results(tokenizer, squad_evaluation_dataset, filename, model):
     save_results_to_file(filename, results, em_scores, f1_scores, avg_times, avg_speeds, avg_tokens)
     return avg_times, avg_tokens, avg_speeds
 
-def print_speedup(quantized_times, configurations):
-    
-    speedups_full_phrase = []
-    # speedups_token_gen = []
-    
-    speedups_full_phrase.append(1)
-    # speedups_token_gen.append(1)
-    
-    nq_avg_full_phrase, _, nq_avg_token_gen = quantized_times[32]
-    
-    print(f"avg non quantized full phrase: {nq_avg_full_phrase}")
-    print(f"avg non quantized token gen: {nq_avg_token_gen}")
 
-    for i in range(1,len(configurations)):
-        q_avg_full_phrase, _, q_avg_token_gen = quantized_times[configurations[i]]
-        
-        print(f"CONSIDERING MODEL QUANTIZED WITH {configurations[i]} bits")
-        print(f"model average inference time: {q_avg_full_phrase:.4f} seconds per generation")
-        print(f"Speedup for full phrase is : {nq_avg_full_phrase / q_avg_full_phrase:.2f} times")
-        speedups_full_phrase.append(nq_avg_full_phrase / q_avg_full_phrase)
-        
-        print(f"model average token generation speed: {q_avg_token_gen:.4f}")
-        print(f"Token Generation Speedup Factor: {q_avg_token_gen / nq_avg_token_gen:.2f} times")
-        # speedups_token_gen.append(q_avg_token_gen / nq_avg_token_gen)
-
-    plt.plot(configurations, speedups_full_phrase, marker='o', color='orange')
-    plt.xlabel("Quantization Bits")
-    plt.ylabel("Speedup Factor")
-    plt.title("Speedup Factor Across Quantization Levels for Full Phrase")
-    plt.grid(True)
-    plt.show()
-
-    # plt.plot(configurations, speedups_token_gen, marker='o', color='orange')
-    # plt.xlabel("Quantization Bits")
-    # plt.ylabel("Speedup Factor")
-    # plt.title("Token Generation Speedup Factor Across Quantization Levels")
-    # plt.grid(True)
-    # plt.show()
-
-    #return speedups_full_phrase, speedups_token_gen
-
-def save_results_for_all_models(tokenizer, dataset, llama_path, directory):
-    if not os.path.exists("QA_results"):
-        os.mkdir("QA_results")
+def save_results_for_all_models(tokenizer, dataset, llama_path, list_files, saving_dir, max_tokens = 150):
+    if not os.path.exists(saving_dir):
+        os.mkdir(saving_dir)
     
-    # tokenizer = AutoTokenizer.from_pretrained(llama_path)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token 
     print("Tokenizer loaded!")
@@ -292,15 +243,15 @@ def save_results_for_all_models(tokenizer, dataset, llama_path, directory):
     model.eval()
     print("Base model loaded!")
     
-    filename = "QA_results\\results_SQuAD_base.txt"
+    filename = f"{saving_dir}\\results_SQuAD_base.txt"
     quantized_times = {}
     
     print("Computing results for base model...")
-    nq_avg_times, nq_avg_tokens, nq_avg_speeds = compute_results(tokenizer, dataset, filename, model)
-    quantized_times[32] = [np.mean(nq_avg_times), np.mean(nq_avg_tokens), np.mean(nq_avg_speeds)]
+    nq_avg_times, nq_avg_tokens, nq_avg_speeds = compute_results(tokenizer, dataset, filename, model, max_tokens=max_tokens)
+    quantized_times[16] = [np.mean(nq_avg_times), np.mean(nq_avg_tokens), np.mean(nq_avg_speeds)]
     print("...End!")
     
-    for file in directory:
+    for file in list_files:
         # quant_path = f"Llama-3.2-1B-Instruct-gptqmodel-{dataset_name}-{num_bits}bit-{group_size}gs"
         quant_path = f"SQuAD_models\\{file}"
         mod = file.split('-')[6]
@@ -317,10 +268,52 @@ def save_results_for_all_models(tokenizer, dataset, llama_path, directory):
         print('MODEL SIZE: {:.3f}MB'.format(size_all_mb))
         model.eval()
         print(f"Loaded quantized {mod} bit model")
-        filename = f"QA_results\\results_SQuAD_quantized_{mod}.txt"
+        filename = f"{saving_dir}\\results_SQuAD_quantized_{mod}.txt"
         print("Computing results for quantized model...")
-        q_avg_times, q_avg_tokens, q_avg_speeds = compute_results(tokenizer, dataset, filename, model)
+        q_avg_times, q_avg_tokens, q_avg_speeds = compute_results(tokenizer, dataset, filename, model, max_tokens=max_tokens)
         quantized_times[mod] = [np.mean(q_avg_times), np.mean(q_avg_tokens), np.mean(q_avg_speeds)]
         print("...End!")
     
     return quantized_times
+
+
+def print_speedup(quantized_times, configurations):
+    
+    speedups_full_phrase = []
+    speedups_token_gen = []
+    
+    speedups_full_phrase.append(1)
+    speedups_token_gen.append(1)
+    
+    nq_avg_full_phrase, _, nq_avg_token_gen = quantized_times[16]
+    
+    print(f"avg non quantized full phrase: {nq_avg_full_phrase}")
+    print(f"avg non quantized token gen: {nq_avg_token_gen}")
+
+    for i in range(1,len(configurations)):
+        q_avg_full_phrase, _, q_avg_token_gen = quantized_times[configurations[i]]
+        
+        print(f"CONSIDERING MODEL QUANTIZED WITH {configurations[i]} bits")
+        print(f"model average inference time: {q_avg_full_phrase:.4f} seconds per generation")
+        print(f"Speedup for full phrase is : {nq_avg_full_phrase / q_avg_full_phrase:.2f} times")
+        speedups_full_phrase.append(nq_avg_full_phrase / q_avg_full_phrase)
+        
+        print(f"model average token generation speed: {q_avg_token_gen:.4f}")
+        print(f"Token Generation Speedup Factor: {q_avg_token_gen / nq_avg_token_gen:.2f} times")
+        speedups_token_gen.append(q_avg_token_gen / nq_avg_token_gen)
+
+    plt.plot(configurations, speedups_full_phrase, marker='o', color='orange')
+    plt.xlabel("Quantization Bits")
+    plt.ylabel("Speedup Factor")
+    plt.title("Speedup Factor Across Quantization Levels for Full Phrase")
+    plt.grid(True)
+    plt.show()
+
+    plt.plot(configurations, speedups_token_gen, marker='o', color='orange')
+    plt.xlabel("Quantization Bits")
+    plt.ylabel("Speedup Factor")
+    plt.title("Token Generation Speedup Factor Across Quantization Levels")
+    plt.grid(True)
+    plt.show()
+    
+    #return speedups_full_phrase, speedups_token_gen

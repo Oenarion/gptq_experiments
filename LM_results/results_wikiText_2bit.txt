@@ -1,32 +1,29 @@
 
 Sample 1:
-Input Text:  Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role 
+Input Text:  Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role
 Ground Truth:  on the television series The Bill in 2000 . This was followed by a starring role in the play Herons written by Simon Stephens , which was performed i
 Prediction: language  [ 1a #1 2 0b 8  S 2  2                     e-    e x  –     x  x   (  u of  * me  s    x  ,        unmo A  ant  con l
- L a, * e  Am W W W world-  1      (     d   +- a  :
+ L a, * e  Am W W W wo
 
 Sample 2:
-Input Text:  In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He  
+Input Text:  In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He 
 Ground Truth: appeared on a 2006 episode of the television series , Doctors , followed by a role in the 2007 theatre production of How to Curse directed by Josie Ro
-Prediction: 1  1 ,  was, a way apart, 1 .  # -      -   was     L           , -  .        us,   lah    of  E g   L     the  ast of 1  G Loves 193 e-   Oasi S     Ats   s  Mpr  1 eallar  Al Mi di   
+Prediction:   1 ,  was, a way apart, 1 . 0 s 0h 3ro. ,  to    Le 0  1, 1, a 1 Re:  1 /.  T 2 P                                           t   apr,  L  ( >  -  f- r
 
 Sample 3:
-Input Text:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott 
+Input Text:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott
 Ground Truth:  Parry " in the episode , " In Safe Hands " . Boulter starred as " Scott " in the play Herons written by Simon Stephens , which was performed in 2001 
-Prediction: "— -1 1 - -_ -  - - e e - e e - e e -l- -:  -.. ----G  --.. -  -.  r.  =  &. 1e. 1  -   [   1 2    *   of  a                                .
-
-   1
-  1 j  e s
+Prediction: t"— -1 1 - -1 - 1. - as - as - - -  - U - d - - -  -   -  <  - -         <   3  I  (    -   -__ iaN   -  1  odon   -   - to   - &-  <           stop u
 
 Sample 4:
-Input Text:  He had a recurring role in 2003 on two episodes of The Bill , as character " Connor Price " . In 2004 
+Input Text:  He had a recurring role in 2003 on two episodes of The Bill , as character " Connor Price " . In 2004
 Ground Truth:  Boulter landed a role as " Craig " in the episode " Teddy 's Story " of the television series The Long Firm ; he starred alongside actors Mark Strong
 Prediction: was leading of the  where for 100  and .         - -     Loc- and  - ,  -  " -  -  - .  s ivi' - s i's       -                 .
 
-.  $   e  * z  - * is*   it'  a         s  *   a p s sroz  s
+.  $   e  * z  - * i
 
 Sample 5:
-Input Text:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a  
+Input Text:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a 
 Ground Truth: series which featured different playwrights , titled Burn / Chatroom / Citizenship . In a 2006 interview , fellow actor Ben Whishaw identified Boulter
 Prediction:  A  with  all 3  13   in             B S        ch    /iny  Cit?  PRs,  forps
- D      Pedmy  of    U 1  Of 1,        of        x   c 1     fdest   a  a  ph     e   Do last in      a*
+ D      Pedmy  of    Post                 c   ho  Solacy   .            

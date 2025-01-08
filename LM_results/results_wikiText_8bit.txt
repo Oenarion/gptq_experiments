@@ -1,25 +1,25 @@
 
 Sample 1:
-Input Text:  Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role 
+Input Text:  Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role
 Ground Truth:  on the television series The Bill in 2000 . This was followed by a starring role in the play Herons written by Simon Stephens , which was performed i
-Prediction:  Robert Boulter is an English film, television and theatre actor. He had a guest @-@ starring role!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Prediction: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Sample 2:
-Input Text:  In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He  
+Input Text:  In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He 
 Ground Truth: appeared on a 2006 episode of the television series , Doctors , followed by a role in the 2007 theatre production of How to Curse directed by Josie Ro
-Prediction:  In 2006, Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill. He!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Prediction: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Sample 3:
-Input Text:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott 
+Input Text:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott
 Ground Truth:  Parry " in the episode , " In Safe Hands " . Boulter starred as " Scott " in the play Herons written by Simon Stephens , which was performed in 2001 
-Prediction:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Prediction: t!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Sample 4:
-Input Text:  He had a recurring role in 2003 on two episodes of The Bill , as character " Connor Price " . In 2004 
+Input Text:  He had a recurring role in 2003 on two episodes of The Bill , as character " Connor Price " . In 2004
 Ground Truth:  Boulter landed a role as " Craig " in the episode " Teddy 's Story " of the television series The Long Firm ; he starred alongside actors Mark Strong
-Prediction:  He had a recurring role in 2003 on two episodes of The Bill, as character " Connor Price ". In 2004!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Prediction: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Sample 5:
-Input Text:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a  
+Input Text:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a 
 Ground Truth: series which featured different playwrights , titled Burn / Chatroom / Citizenship . In a 2006 interview , fellow actor Ben Whishaw identified Boulter
-Prediction:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill. The play was part of a!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Prediction: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

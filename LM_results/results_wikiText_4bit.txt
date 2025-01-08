@@ -1,25 +1,25 @@
 
 Sample 1:
-Input Text:  Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role 
+Input Text:  Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role
 Ground Truth:  on the television series The Bill in 2000 . This was followed by a starring role in the play Herons written by Simon Stephens , which was performed i
-Prediction:  Robert Boulter is an English film, television and theatre actor. He had a guest @-@ starring role in the 2010 film "The Twilight Saga: New Moon". He also appeared in the 2010 film "The Twilight Saga: Eclipse". He played the role of @-@ in the 2010 film "The Twilight Saga: Breaking Dawn - Part 1". He also appeared in the 2010 film "The Twilight Saga: Breaking Dawn - Part 2". He played the role of @-@ in the 2012 film "The Twilight Saga: Breaking Dawn - Part 3". He also appeared in the 2013 film "The Twilight Saga: Breaking Dawn - Part
+Prediction: in the 2013 film "The Dark Knight Rises". He is also known for his work in the 2014 film "The Dark Knight Rises". He has also appeared in the 2014 fil
 
 Sample 2:
-Input Text:  In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He  
+Input Text:  In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He 
 Ground Truth: appeared on a 2006 episode of the television series , Doctors , followed by a role in the 2007 theatre production of How to Curse directed by Josie Ro
-Prediction:  In 2006, Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill. He  also appeared in the 2007 film The Last Day of Summer, alongside Whishaw and Kate Winslet. Boulter has also appeared in the 2008 film The Last Day of Summer, alongside Whishaw and Kate Winslet. He has also appeared in the 2008 film The Last Day of Summer, alongside Whishaw and Kate Winslet. He has also appeared in the 2008 film The Last Day of Summer, alongside Whishaw and Kate Winslet. He has also appeared in the 2008 film The Last Day of Summer, alongside Whishaw and Kate Winslet
+Prediction: also appeared in the 2007 film The Last Day of Summer, alongside Whishaw and Kate Winslet. Boulter has also appeared in the 2008 film The Last Day of 
 
 Sample 3:
-Input Text:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott 
+Input Text:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scott
 Ground Truth:  Parry " in the episode , " In Safe Hands " . Boulter starred as " Scott " in the play Herons written by Simon Stephens , which was performed in 2001 
-Prediction:  In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed " Scotty", a young man who gets into a fight with a group of rough-looking men. Boulter's performance was widely praised by critics and audiences alike. He was also cast in the film " The Bill ", which was released in 2001. Boulter's performance in " The Bill " was also widely praised. He played the role of " Scotty", a young man who gets into a fight with a group of rough-looking men. Boulter's performance in " The Bill " was also widely praised. He played the role of " Scotty", a young man who
+Prediction: ty", a young man who gets into a fight with a group of rough-looking men. Boulter's performance was widely praised by critics and audiences alike. He 
 
 Sample 4:
-Input Text:  He had a recurring role in 2003 on two episodes of The Bill , as character " Connor Price " . In 2004 
+Input Text:  He had a recurring role in 2003 on two episodes of The Bill , as character " Connor Price " . In 2004
 Ground Truth:  Boulter landed a role as " Craig " in the episode " Teddy 's Story " of the television series The Long Firm ; he starred alongside actors Mark Strong
-Prediction:  He had a recurring role in 2003 on two episodes of The Bill, as character " Connor Price ". In 2004, he appeared in the episode " The Bill ", as character " Connor Price " again. In 2005, he appeared in the episode " The Bill ", as character " Connor Price " once more. In 2006, he appeared in the episode " The Bill ", as character " Connor Price " once again. In 2007, he appeared in the episode " The Bill ", as character " Connor Price " once more. In 2008, he appeared in the episode " The Bill ", as character " Connor Price " once again. In 2009, he appeared
+Prediction:  he appeared in the episode " The Bill ", as character " Connor Price " again. In 2005, he appeared in the episode " The Bill ", as character " Connor
 
 Sample 5:
-Input Text:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a  
+Input Text:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a 
 Ground Truth: series which featured different playwrights , titled Burn / Chatroom / Citizenship . In a 2006 interview , fellow actor Ben Whishaw identified Boulter
-Prediction:  In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill. The play was part of a 2006-2007 season of the Royal Shakespeare Company and was performed at the Royal Shakespeare Theatre in Stratford-upon-Avon. Boulter played the role of the protagonist, a young man who is struggling to come to terms with the loss of his father. The play explores themes of grief, identity and the search for meaning in a postmodern world.
+Prediction: 2006-2007 season of the Royal Shakespeare Company and was performed at the Royal Shakespeare Theatre in Stratford-upon-Avon. Boulter played the role o
