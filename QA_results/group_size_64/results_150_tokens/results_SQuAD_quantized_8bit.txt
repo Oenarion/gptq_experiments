@@ -1,0 +1,95 @@
+Example 1
+Question: what did tesla attribute skin damage to?
+Ground Truth: damage to the skin was not caused by the Roentgen rays, but by the ozone generated in contact with the skin
+Predicted: ozone!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.11
+Time to generate response: 5.700066199999128s
+
+Example 2
+Question: What is defined as the majority vote?
+Ground Truth: at least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU
+Predicted: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.669082899992645s
+
+Example 3
+Question: What happens secondly if a Directive's deadline is not met?
+Ground Truth: a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company
+Predicted: A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.758292049999s
+
+Example 4
+Question: Did the rainforest managed to thrive during the glacial periods? 
+Ground Truth: However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+Predicted: Yes!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.8242561999941245s
+
+Example 5
+Question: In which point did the drainage basin of the Amazon split?
+Ground Truth: During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch.
+Predicted: The!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.7447627000074135s
+
+Example 6
+Question: What does the internal cavity contain?
+Ground Truth: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals.
+Predicted: The!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.769413300004089s
+
+Example 7
+Question: How are packets normally forwarded
+Ground Truth: by intermediate network nodes asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing
+Predicted: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.812540100007027s
+
+Example 8
+Question: What  things did the network concentrate on 
+Ground Truth: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets
+Predicted: Bar!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.913522650000232s
+
+Example 9
+Question: What is included with each packet label
+Ground Truth: Each packet is labeled with a destination address, source address, and port numbers. It may also be labeled with the sequence number of the packet
+Predicted: Destination!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.09
+Time to generate response: 5.8591327000031015s
+
+Example 10
+Question: Is the packet header long 
+Ground Truth: The packet header can be small, as it only needs to contain this code and any information, such as length, timestamp, or sequence number
+Predicted: No!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.801724699995248s
+
+Average Exact Match (EM): 0.00
+Average F1 Score: 0.02
+Average Time for response generation: 5.79s
+Average Number of tokens generated: 150.00
+Average Tokens generated each second: 25.9315763491061

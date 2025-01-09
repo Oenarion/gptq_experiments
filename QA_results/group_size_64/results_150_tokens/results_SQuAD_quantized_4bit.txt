@@ -1,0 +1,107 @@
+Example 1
+Question: what did tesla attribute skin damage to?
+Ground Truth: damage to the skin was not caused by the Roentgen rays, but by the ozone generated in contact with the skin
+Predicted: ozone generated in contact with the skin, and to a lesser extent, by nitrous acid.
+
+Exact Match: False
+F1 Score: 0.53
+Time to generate response: 2.399152599995432s
+
+Example 2
+Question: What is defined as the majority vote?
+Ground Truth: at least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU
+Predicted: At least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU.
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 4.376973249993171s
+
+Example 3
+Question: What happens secondly if a Directive's deadline is not met?
+Ground Truth: a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company
+Predicted: A member state cannot rely, as against individuals, on its own failure to perform the obligations which the Directive entails.
+
+Exact Match: False
+F1 Score: 0.05
+Time to generate response: 3.067521899996791s
+
+Example 4
+Question: Did the rainforest managed to thrive during the glacial periods? 
+Ground Truth: However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+Predicted: Yes, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+
+    Step-by-Step Solution:
+1. Identify the key points in the question.
+2. Analyze the information provided in the question.
+3. Draw a conclusion based on the analysis.
+4. Provide a final answer to the question.
+
+    Step 1: Identify the key points in the question.
+    The key points are: the rainforest, extinction of dinosaurs, wetter climate, and glacial periods.
+
+    Step 2: Analyze the information provided in the question.
+    The information provided indicates that the rainforest was able to expand and thrive during glacial periods, despite the extinction of
+
+Exact Match: False
+F1 Score: 0.35
+Time to generate response: 5.230873699998483s
+
+Example 5
+Question: In which point did the drainage basin of the Amazon split?
+Ground Truth: During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch.
+Predicted: The Purus Arch.
+
+Exact Match: False
+F1 Score: 0.19
+Time to generate response: 5.20352714999899s
+
+Example 6
+Question: What does the internal cavity contain?
+Ground Truth: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals.
+Predicted: The internal cavity forms: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals. These branch through the mesoglea to the most active parts of the animal: the mouth and pharynx; the roots of the tentacles, if present; all along the underside of each comb row; and four branches round the sensory complex at the far end from the mouth – two of these four branches terminate in anal pores. The inner surface of the cavity is lined with an epithelium, the gastrodermis. The mouth and pharynx have both cilia and well-developed muscles. In other parts of the canal
+
+Exact Match: False
+F1 Score: 0.39
+Time to generate response: 5.257230849994812s
+
+Example 7
+Question: How are packets normally forwarded
+Ground Truth: by intermediate network nodes asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing
+Predicted: Packets are normally forwarded by intermediate network nodes asynchronously using first-in, first-out buffering.
+
+Exact Match: False
+F1 Score: 0.59
+Time to generate response: 5.263674649999302s
+
+Example 8
+Question: What  things did the network concentrate on 
+Ground Truth: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets
+Predicted: The network concentrated on three key ideas: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, and delivery of these messages by store and forward switching.
+
+Exact Match: False
+F1 Score: 0.64
+Time to generate response: 1.4385113999960595s
+
+Example 9
+Question: What is included with each packet label
+Ground Truth: Each packet is labeled with a destination address, source address, and port numbers. It may also be labeled with the sequence number of the packet
+Predicted: Destination address, source address, and port numbers, as well as the sequence number of the packet.
+
+Exact Match: False
+F1 Score: 0.61
+Time to generate response: 5.211824100006197s
+
+Example 10
+Question: Is the packet header long 
+Ground Truth: The packet header can be small, as it only needs to contain this code and any information, such as length, timestamp, or sequence number
+Predicted: No, the packet header is short. It only contains the code, length, timestamp, and sequence number.
+
+Exact Match: False
+F1 Score: 0.54
+Time to generate response: 5.191707400008454s
+
+Average Exact Match (EM): 0.10
+Average F1 Score: 0.49
+Average Time for response generation: 4.26s
+Average Number of tokens generated: 121.70
+Average Tokens generated each second: 28.439437817853012

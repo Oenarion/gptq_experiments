@@ -1,0 +1,95 @@
+Example 1
+Question: what did tesla attribute skin damage to?
+Ground Truth: damage to the skin was not caused by the Roentgen rays, but by the ozone generated in contact with the skin
+Predicted: McDon McDon McDon holdingholdingholdingholdingholdingholdingholdingholdingholdingconaся Hold McDon McDon McDon McDon McDonaboardenaboudgingанссясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясяizonansansansansansansansansansansansansansansansansansans든adesadesubenubenaseaseansoppelaseaseans frontierades.isEmptyadesardenansbankuggingissenadeschanardenсяuggingсяEthсяuggingсяEthсясясясясясясясясясясясясясясясясясясясясясясясясясясяся
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.171347500006959s
+
+Example 2
+Question: What is defined as the majority vote?
+Ground Truth: at least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU
+Predicted: Royaluring DubabinSabсяmailclaimChan Dub Hague Edenabinclaimclaimnochemachemaoremobraclaimlossalezaabinlosschema Hague Haguetepclaimclaimclaimlosschemaissenassiallingissenсяalling Hague Hague HagueclaimClaimabinabinabinabinalling HarrisonlossсяillageuringallingNOloss Haguealling Haguealling Haguealling Haguealling Hagueclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimallingtepteptepteptepteptepteptepteptepteptepabinabin Royalovioviояояояoviояemptionemptionояояoviояояoviояovialling Hagueovialling Hague Hague Hague Hague Hague Hagueclaim Haguealling Hagueclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimclaimovi
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.340696500003105s
+
+Example 3
+Question: What happens secondly if a Directive's deadline is not met?
+Ground Truth: a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company
+Predicted: Em.isEmptyEmEmEm.haslossoviissing eden.isEmptyadesades eden.isEmpty Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Region Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Linkillage.isEmpty.isEmptyisanisan edenisanape HoldingTravelisanisanisanisan eden seatingandoarden.isEmpty.isEmpty
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.302024800002982s
+
+Example 4
+Question: Did the rainforest managed to thrive during the glacial periods? 
+Ground Truth: However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+Predicted: bookingabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabinabin ap ap ap ap ap ap apasingavelavelavelavelasingabinisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisanisan
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.248846649992629s
+
+Example 5
+Question: In which point did the drainage basin of the Amazon split?
+Ground Truth: During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch.
+Predicted: LostLostLostLostLostLostLostLostLostсясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясяansansansansansadiaansansansansansansansansansansansansansansEvase Lawson LawsonHSabinadesadesEthallingbankansansansansansansansansansansHSHSadesHSadesclaimclaimansinkingallinginkingansansansansansansHSHSadesadesEvEvEvEvabinadesinkingclaiminkinginkinginkinginkingansansansownEvезbankuggingchan.isEmptyinkinginkinginkinginkinginkingans
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.187522200001695s
+
+Example 6
+Question: What does the internal cavity contain?
+Ground Truth: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals.
+Predicted: tepclient clientades Pek Pek Pek Pekclient Client Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dubtepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepteptepobiaplibояallingtepteptepobiaundyinkinkinkinkinkinkink dizalling diziaz Compilerizalizardenasy Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.2947296500060475s
+
+Example 7
+Question: How are packets normally forwarded
+Ground Truth: by intermediate network nodes asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing
+Predicted: сясясясясясясясяagingbyeсясясясясясяholdKKсясясясясясяся HoldIsDou Annexans Annexans Annexans Annexclaim haciase.Has.Has.Has.Has.Has.HasсясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясяNameissenubenISallingubenisciundingundingiszfewfewissenallingvoke AnnexallingсяISobiissenсяISobiissenottafewissenubenISissenpscallingissenissenpscallingissenissenissenissenissenpscalling�oviundingiszotta
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.246047500004352s
+
+Example 8
+Question: What  things did the network concentrate on 
+Ground Truth: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets
+Predicted: reamsingletonсясясясясясяaseclaimream facilityclaimсясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясясяobiaubbleobiaubbleubbleubbleankiubbleubbleubbleubbleсяysansansansansansansansansans/storyclaimubbleubbleclaimubbleubbleclaimubbleclaimubbleclaimubbleclaimubbleclaimclaimclaimclaimubbleclaimubbleclaimubbleclaimubbleclaimubble
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.1417067000002135s
+
+Example 9
+Question: What is included with each packet label
+Ground Truth: Each packet is labeled with a destination address, source address, and port numbers. It may also be labeled with the sequence number of the packet
+Predicted: tep Royaladesubenbank.isEmptyakakbank Ade.isEmptyakak Lanubenakakabyabyallingubenclaimbackclaimbankakakak Linkubenubenbankbank.isEmptybank.isEmptyclaimRoyaltep.isEmptybankbank.isEmptyclaimRoyalRoyal.isEmptyanealling.isEmpty.isEmpty.isEmpty.isEmpty.isEmpty.isEmpty.isEmptyclaimclaimclaimclaimclaimclaimclaimclaimclaim adoansallingbankallingbankaneTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravelTravel
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.163867349998327s
+
+Example 10
+Question: Is the packet header long 
+Ground Truth: The packet header can be small, as it only needs to contain this code and any information, such as length, timestamp, or sequence number
+Predicted: TABLEсясясясяaseTheinkinglossjisambialossсяallingubenclaimallingtepinkinginkinglossteptepсяtepinkinginkinglossjisadesclaimallingteptep LanteptepсяtepadestepadeallingaseallinggaardadesadeadeclaimaseaseobiaEmadeEm.HasEmсяallingaseaseaseaseaseaseasetepaseobiaobiaase.HasEmapatjadesaseasetepaseobiaobiaobiaaseaseobiaobiaobiaaseaseobiaobiaobiaaseaseaseasetepasetepaseasonades Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub Dub RoyalRoyalteptepinkinginking.isEmpty.isEmptyaseRoyalRoyal tavobiaobiaoviase.isEmptyaseissing Royal
+
+Exact Match: False
+F1 Score: 0.00
+Time to generate response: 5.15855405000184s
+
+Average Exact Match (EM): 0.00
+Average F1 Score: 0.00
+Average Time for response generation: 5.23s
+Average Number of tokens generated: 150.00
+Average Tokens generated each second: 28.709864611599606

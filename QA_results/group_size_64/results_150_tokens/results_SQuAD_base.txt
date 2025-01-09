@@ -1,0 +1,95 @@
+Example 1
+Question: what did tesla attribute skin damage to?
+Ground Truth: damage to the skin was not caused by the Roentgen rays, but by the ozone generated in contact with the skin
+Predicted: ozone, nitrous acid, and to a lesser extent, plasma waves.
+
+Exact Match: False
+F1 Score: 0.15
+Time to generate response: 1.8820958500000415s
+
+Example 2
+Question: What is defined as the majority vote?
+Ground Truth: at least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU
+Predicted: At least 55 per cent of the Council members (not votes) representing 65 per cent of the population of the EU.
+
+Exact Match: True
+F1 Score: 1.00
+Time to generate response: 4.029326800002309s
+
+Example 3
+Question: What happens secondly if a Directive's deadline is not met?
+Ground Truth: a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company
+Predicted: A member state cannot rely, as against individuals, on its own failure to perform the obligations which the Directive entails.
+
+Exact Match: False
+F1 Score: 0.05
+Time to generate response: 4.325074299995322s
+
+Example 4
+Question: Did the rainforest managed to thrive during the glacial periods? 
+Ground Truth: However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+Predicted: Yes, the rainforest managed to thrive during the glacial periods.
+
+Exact Match: False
+F1 Score: 0.50
+Time to generate response: 1.8936732499932987s
+
+Example 5
+Question: In which point did the drainage basin of the Amazon split?
+Ground Truth: During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch.
+Predicted: The Purus Arch.
+
+Exact Match: False
+F1 Score: 0.19
+Time to generate response: 3.343126450003183s
+
+Example 6
+Question: What does the internal cavity contain?
+Ground Truth: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals.
+Predicted: The internal cavity contains the mouth, pharynx, stomach, roots of the tentacles, all along the underside of each comb row, and four branches round the sensory complex at the far end from the mouth. It is lined with an epithelium called the gastrodermis. The gastrodermis is different on the sides nearest to and furthest from the organ that it supplies. The nearer side is composed of tall nutritive cells, germ cells, and photocytes, while the side furthest from the organ is covered with ciliated cells, ciliary rosettes, pores, and double whorls of cilia.
+
+Exact Match: False
+F1 Score: 0.14
+Time to generate response: 3.7048046499985503s
+
+Example 7
+Question: How are packets normally forwarded
+Ground Truth: by intermediate network nodes asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing
+Predicted: Asynchronously using first-in, first-out buffering
+
+Exact Match: False
+F1 Score: 0.38
+Time to generate response: 4.375714350004273s
+
+Example 8
+Question: What  things did the network concentrate on 
+Ground Truth: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets
+Predicted: The network concentrated on three key ideas: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, and delivery of these messages by store and forward switching.
+
+Exact Match: False
+F1 Score: 0.64
+Time to generate response: 1.164609699997527s
+
+Example 9
+Question: What is included with each packet label
+Ground Truth: Each packet is labeled with a destination address, source address, and port numbers. It may also be labeled with the sequence number of the packet
+Predicted: Destination address, source address, and port numbers.
+
+Exact Match: False
+F1 Score: 0.48
+Time to generate response: 4.439029749992187s
+
+Example 10
+Question: Is the packet header long 
+Ground Truth: The packet header can be small, as it only needs to contain this code and any information, such as length, timestamp, or sequence number
+Predicted: No, the packet header is small.
+
+Exact Match: False
+F1 Score: 0.21
+Time to generate response: 4.17565485000523s
+
+Average Exact Match (EM): 0.10
+Average F1 Score: 0.38
+Average Time for response generation: 3.33s
+Average Number of tokens generated: 114.50
+Average Tokens generated each second: 34.28447112483903
